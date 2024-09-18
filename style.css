@@ -14,9 +14,9 @@ body {
     width: 60%;
     margin: 0 auto;
     padding: 20px;
-    border: 1px solid #d7eb22;
+    border: 1px solid rgb(157, 241, 40);;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px yellowgreen;
+    box-shadow: 0px 0px 25px rgb(157, 241, 40);
 }
 
 input, button, select {
@@ -40,5 +40,6 @@ input, button, select {
 }
 footer{
     color: rgb(157, 241, 40);
+    text-shadow: 25px rgb(157, 241, 40);
     bottom: 0;
 }
