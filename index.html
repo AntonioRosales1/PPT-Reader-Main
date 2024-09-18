@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PowerPoint Reader with Media Controls</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/apple-touch-icon.png">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Upload PowerPoint and Read Aloud</h1>
+        <input type="file" id="pptFile" accept=".pptx" />
+        <div class="controls">
+            <button id="playButton" disabled>Play</button>
+            <button id="pauseButton" disabled>Pause</button>
+            <button id="stopButton" disabled>Stop</button>
+            <button id="rewindButton" disabled>Rewind</button>
+            <button id="fastForwardButton" disabled>Fast Forward</button>
+        </div>
+        <div class="speed-control">
+            <label for="speedRange">Speed: </label>
+            <input type="range" id="speedRange" min="0.5" max="2" step="0.1" value="1">
+        </div>
+        <div class="voice-control">
+            <label for="voiceSelect">Choose a voice: </label>
+            <select id="voiceSelect"></select>
+        </div>
+        <div id="output"></div>
+    </div>
+    <footer>
+        <h6 class="antonio">Developed by: Antonio</h6>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

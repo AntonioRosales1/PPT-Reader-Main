@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    color: yellow;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #d7eb22;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px yellowgreen;
+}
+
+input, button, select {
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.controls, .speed-control, .voice-control {
+    margin: 20px 0;
+}
+
+#output {
+    margin-top: 20px;
+    text-align: left;
+    white-space: pre-wrap;
+    cursor: pointer;
+}
+
+.highlight {
+    background-color: rgb(38, 215, 218);
+}
+footer{
+    color: rgb(157, 241, 40);
+    bottom: 0;
+}
